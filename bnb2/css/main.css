@@ -2,6 +2,11 @@
 
 a {text-decoration: none;}
 
+p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 .clearfix {overflow: auto;}
 .wrapper {
     margin: 0 auto;
@@ -155,21 +160,78 @@ div.intro div.introtext a {
 div.home-content {
     width: 1000px;
     background-color: whitesmoke;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 div.homecol {
     margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 303px;
-    height: 500px;
-    background: lightgray;
+    width: 300px;
     float: left;
-    padding-top: 5px;
-    padding-left: 10px;
 }
 
-div.homecol h2 p{
-    margin: 30px;
+div.homecol h2 {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+}
+
+div.homecol img {
+    width: 283px;
+    border: 0in;
+    margin-left: 15px;
+}
+
+div.homecol p {
+    font-size: 16px;
+    margin-left: 15px;
+    color: gray;
+}
+
+div.homecol a {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: green;
+    float: right;
+}
+
+div.homecol div.why img {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 15px;
+}
+
+div.why h3 {
+    color: gray;
+}
+
+div.why p {
+    margin-top: 8px;
+}
+
+div.reviews i {
+    float: left;
+    color: gainsboro;
+}
+
+div.reviews h3 {
+    margin-top: 15px;
+    margin-left: 25px;
+    float: left;
+    color: gray;
+}
+
+div.reviews p {
+    float: left;
+}
+
+div.googlerew img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
